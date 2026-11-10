@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "2026-11-business-screen",
+      "date": "2026-11-08",
+      "type": "new",
+      "title": {
+        "ru": "Деньги дела отдельно от личных",
+        "en": "Business money, apart from yours",
+        "ro": "Banii afacerii, separat de ai tăi"
+      },
+      "body": {
+        "ru": "В «Моих делах» — чистая прибыль месяца, счета дела и записи клиентов на одном экране.",
+        "en": "Business now shows the month’s net profit, business accounts and client bookings on one screen.",
+        "ro": "La Afaceri vezi pe un singur ecran profitul net al lunii, conturile afacerii și programările clienților."
+      },
+      "action": {
+        "kind": "route",
+        "value": "business"
+      },
+      "audience": "all"
+    }
+  ]
+}
