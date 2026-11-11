@@ -1,0 +1,681 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="color-scheme" content="light dark"><meta name="robots" content="noindex"><title>Trata</title><link rel="icon" href="../trata-favicon.png"><style>
+:root{--bg:#f5f6f7;--card:#fff;--text:#111;--sec:#5b6168;--line:#e3e6e9;--mint:#0a7a52;--chip:#e8f6ef}
+@media (prefers-color-scheme:dark){:root{--bg:#101315;--card:#1b1f23;--text:#f2f4f5;--sec:#a9b0b6;--line:#2b3035;--mint:#43dca3;--chip:#16352a}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.45 -apple-system,system-ui,sans-serif}
+main{max-width:640px;margin:0 auto;padding:16px 16px calc(32px + env(safe-area-inset-bottom))}
+.kicker{margin:4px 0 2px;color:var(--sec);font-size:14px}.ios{color:var(--mint);font-weight:600}
+h1{font-size:26px;line-height:1.2;margin:0 0 12px}.lead{color:var(--sec);margin:0 0 12px}
+video{width:100%;max-height:72vh;border-radius:18px;background:#000;display:block;margin:4px 0 18px}
+.step{display:flex;gap:12px;background:var(--card);border-radius:18px;padding:14px;margin:0 0 12px}
+.num{flex:none;width:30px;height:30px;border-radius:15px;background:var(--chip);color:var(--mint);font-weight:700;display:flex;align-items:center;justify-content:center}
+.body{min-width:0;flex:1}.body p{margin:0 0 8px}.label{color:var(--sec);font-size:14px;margin:4px 0 2px!important}
+h2{font-size:19px;margin:0 0 8px}ol{margin:0 0 8px;padding-left:20px}li{margin:0 0 6px}
+figure{margin:10px 0 4px}figure img{width:100%;max-width:340px;display:block;border-radius:14px;border:1px solid var(--line)}
+figcaption{color:var(--sec);font-size:15px;margin-top:6px}
+.trouble{margin:22px 0 8px}.tips{background:var(--card);border-radius:18px;padding:14px 14px 8px 32px;margin:0 0 14px}
+a{color:var(--mint)}.links,.other{color:var(--sec);font-size:15px}.switch a{margin-right:10px}
+</style></head><body><main>
+<section class="g" data-t="setup" data-ios="27" data-lang="ru" hidden>
+<p class="kicker">Инструкция · <span class="ios">iOS 27</span></p>
+<h1>Подключить автозапись</h1>
+<video controls playsinline preload="none" poster="setup-27-ru.jpg" data-src="setup-27-ru.mp4"></video>
+<article class="step">
+<div class="num">1</div><div class="body">
+<p class="label">Шаг 1 · Команда</p>
+<h2>Добавьте команду Trata</h2>
+<p>Одна команда на всё: оплата Apple Pay и уведомления вашего банка.</p>
+<p>Внутри: оплата Apple Pay и уведомления банка → Trata</p>
+<figure><img loading="lazy" src="s27-ru-command-1.jpg" alt="Нажмите «Добавить» — команда появится в «Командах»"><figcaption>Нажмите «Добавить» — команда появится в «Командах»</figcaption></figure>
+<figure><img loading="lazy" src="s27-ru-command-2.jpg" alt="Готово: «Покупки в Trata» в списке. Вернитесь в Trata"><figcaption>Готово: «Покупки в Trata» в списке. Вернитесь в Trata</figcaption></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">2</div><div class="body">
+<p class="label">Шаг 2 · В команде</p>
+<h2>Настройте команду</h2>
+<p>Всё — на одном экране команды:</p>
+<ol><li>В блоке «Уведомление» нажмите «Приложение» и выберите свой банк.</li><li>Нажмите «+» и выберите «Wallet» — он внизу списка.</li><li>У обоих блоков нажмите ⌄ и включите «Автоматизация».</li></ol>
+<figure><img loading="lazy" src="s27-ru-incommand-1.jpg" alt="В блоке «Уведомление» нажмите «Приложение» и выберите свой банк"><figcaption>В блоке «Уведомление» нажмите «Приложение» и выберите свой банк</figcaption></figure>
+<figure><img loading="lazy" src="s27-ru-incommand-2.jpg" alt="Нажмите «+» и выберите «Wallet» — он внизу списка"><figcaption>Нажмите «+» и выберите «Wallet» — он внизу списка</figcaption></figure>
+<figure><img loading="lazy" src="s27-ru-incommand-3.jpg" alt="Нажмите ⌄ у первого блока и включите «Автоматизация»"><figcaption>Нажмите ⌄ у первого блока и включите «Автоматизация»</figcaption></figure>
+<figure><img loading="lazy" src="s27-ru-incommand-4.jpg" alt="То же у второго блока — обе «Автоматизации» включены"><figcaption>То же у второго блока — обе «Автоматизации» включены</figcaption></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">3</div><div class="body">
+<p class="label">Шаг 3 · Проверка</p>
+<p>Нажмите «Проверить»: «Команды» запустят команду. Если спросят доступ к Trata, выберите «Разрешить». Включена ли «Автоматизация», покажет первая оплата на кассе.</p>
+<p>Заплатите картой или Apple Pay — покупка появится здесь.</p>
+</div>
+</article>
+<h2 class="trouble">Не получается?</h2><ul class="tips"><li>Банк не присылает уведомлений — выберите только «Wallet». Присылает SMS — добавьте и «Сообщения».</li><li>Открылась «Галерея» без окна «Добавить»? Нажмите «Нет».</li><li>Команда не открылась? Вернитесь к шагу 1</li><li>Нажмите «Повторить проверку» и, если «Команды» спросят доступ к Trata, разрешите его.</li></ul>
+<p class="links"><a href="../help.html#autorecord">Другие вопросы — на странице помощи</a> · <a href="mailto:tratasupport@gmail.com">Написать в поддержку</a></p>
+<p class="other">Другая версия iOS: <span class="switch"></span></p>
+</section>
+<section class="g" data-t="setup" data-ios="26" data-lang="ru" hidden>
+<p class="kicker">Инструкция · <span class="ios">iOS 26 и раньше</span></p>
+<h1>Подключить автозапись</h1>
+<video controls playsinline preload="none" poster="setup-26-ru.jpg" data-src="setup-26-ru.mp4"></video>
+<article class="step">
+<div class="num">1</div><div class="body">
+<p class="label">Шаг 1 · Команда</p>
+<h2>Добавьте команду Trata</h2>
+<p>Одна команда для оплат Apple Pay. SMS банка можно добавить потом.</p>
+<ol><li>Нажмите «Добавить команду» и в меню выберите «Команды».</li><li>В «Командах» нажмите «Добавить».</li><li>Вернитесь в Trata — дальше автоматизация Wallet.</li></ol>
+<figure><img loading="lazy" src="s26-ru-command-1.jpg" alt="В окне «Поделиться» выберите «Команды»"><figcaption>В окне «Поделиться» выберите «Команды»</figcaption></figure>
+<figure><img loading="lazy" src="s26-ru-command-2.jpg" alt="Нажмите «Добавить»"><figcaption>Нажмите «Добавить»</figcaption></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">2</div><div class="body">
+<p class="label">Шаг 2 · Wallet</p>
+<h2>Создайте автоматизацию Wallet</h2>
+<p>До iOS 27 автоматизация не приходит вместе с командой — её создаёте вы, один раз.</p>
+<ol><li>Откройте «Команды» и внизу нажмите «Автоматизация». Открылась команда — сначала «‹» слева вверху.</li><li>Нажмите «Новая автоматизация» — или «+» справа вверху, если автоматизации уже есть.</li><li>Прокрутите список вниз и выберите «Wallet».</li><li>Отметьте карты, которыми платите, и выберите «Немедленный запуск».</li><li>Нажмите «Далее» и в «Мои быстрые команды» выберите «Покупки в Trata».</li></ol>
+<figure><img loading="lazy" src="s26-ru-wallet-1.jpg" alt="Внизу «Автоматизация» → «Новая автоматизация»"><figcaption>Внизу «Автоматизация» → «Новая автоматизация»</figcaption></figure>
+<figure><img loading="lazy" src="s26-ru-wallet-2.jpg" alt="Прокрутите вниз и выберите «Wallet»"><figcaption>Прокрутите вниз и выберите «Wallet»</figcaption></figure>
+<figure><img loading="lazy" src="s26-ru-wallet-3.jpg" alt="Отметьте свои карты, выберите «Немедленный запуск» → «Далее», затем — «Покупки в Trata»"><figcaption>Отметьте свои карты, выберите «Немедленный запуск» → «Далее», затем — «Покупки в Trata»</figcaption></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">3</div><div class="body">
+<p class="label">Шаг 3 · Проверка</p>
+<p>Нажмите «Проверить»: «Команды» запустят команду. Если спросят доступ к Trata, выберите «Разрешить» или «Разрешать всегда», но не «Разрешить один раз». Работает ли автоматизация Wallet, покажет первая оплата на кассе.</p>
+<p>Заплатите картой или Apple Pay — покупка появится здесь.</p>
+</div>
+</article>
+<h2 class="trouble">Не получается?</h2><ul class="tips"><li>Без «Немедленного запуска» iPhone после каждой оплаты будет ждать вашего нажатия.</li><li>Не было окна с кнопкой «Добавить»? Нажмите «Нет».</li><li>Нажмите «Повторить проверку» и, если «Команды» спросят доступ к Trata, разрешите его.</li></ul>
+<p class="links"><a href="../help.html#autorecord">Другие вопросы — на странице помощи</a> · <a href="mailto:tratasupport@gmail.com">Написать в поддержку</a></p>
+<p class="other">Другая версия iOS: <span class="switch"></span></p>
+</section>
+<section class="g" data-t="applepay" data-ios="27" data-lang="ru" hidden>
+<p class="kicker">Инструкция · <span class="ios">iOS 27</span></p>
+<h1>Apple Pay → Trata</h1>
+<video controls playsinline preload="none" poster="applepay-27-ru.jpg" data-src="applepay-27-ru.mp4"></video>
+<article class="step">
+<div class="num">1</div><div class="body">
+<p class="label">Шаг 1 · Добавьте команду</p>
+<p>В Trata откройте «Меню» → «Автозапись», у Apple Pay нажмите «Подключить», затем «Добавить команду». В меню выберите «Команды», затем «Добавить». Команда «Apple Pay в Trata» откроется сама.</p>
+<figure><img loading="lazy" src="ap27-ru-1.jpg" alt="Добавьте команду"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">2</div><div class="body">
+<p class="label">Шаг 2 · Откройте «Автоматизацию»</p>
+<p>Внизу команды нажмите «Поиск» и выберите «Автоматизация». Если команда открылась не в редакторе, сначала нажмите «Изменить» справа вверху.</p>
+<figure><img loading="lazy" src="ap27-ru-2.jpg" alt="Откройте «Автоматизацию»"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">3</div><div class="body">
+<p class="label">Шаг 3 · Выберите Wallet</p>
+<p>Прокрутите список до раздела «Приложения» и нажмите «Wallet». В команде появится блок «При поднесении… к считывателю».</p>
+<figure><img loading="lazy" src="ap27-ru-3.jpg" alt="Выберите Wallet"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">4</div><div class="body">
+<p class="label">Шаг 4 · Автоматизация включена</p>
+<p>Нажмите стрелку в блоке Wallet: переключатель «Автоматизация» уже включён. Подходит любая карта. Чтобы записывать только одну, нажмите «Любая карта» и выберите её.</p>
+<p>Автозапись настраивали до iOS 27? Она перенеслась сама — второй блок Wallet не добавляйте.</p>
+<figure><img loading="lazy" src="ap27-ru-4.jpg" alt="Автоматизация включена"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">5</div><div class="body">
+<p class="label">Шаг 5 · Последний шаг: запустите один раз</p>
+<p>Нажмите «Назад», затем ▶ на команде «Apple Pay в Trata» и выберите «Разрешить». Покупки при этом нет, Trata ничего не запишет. Без этого первая оплата с заблокированного телефона не запишется.</p>
+<figure><img loading="lazy" src="ap27-ru-5.jpg" alt="Последний шаг: запустите один раз"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">6</div><div class="body">
+<p class="label">Шаг 6 · Оплатите и проверьте</p>
+<p>Нажмите «Назад»: в «Медиатеке» → «Автоматизация» появится 1. Оплатите покупку у терминала картой — запись появится в Trata. Для нового продавца выберите категорию в окне «Команд».</p>
+<figure><img loading="lazy" src="ap27-ru-6.jpg" alt="Оплатите и проверьте"></figure>
+</div>
+</article>
+<h2 class="trouble">Не получается?</h2><ul class="tips"><li>Нажмите «Проверить»: «Команды» запустят команду. Если спросят доступ к Trata, выберите «Разрешить». Включена ли «Автоматизация», покажет первая оплата на кассе.</li></ul>
+<p class="links"><a href="../help.html#autorecord">Другие вопросы — на странице помощи</a> · <a href="mailto:tratasupport@gmail.com">Написать в поддержку</a></p>
+<p class="other">Другая версия iOS: <span class="switch"></span></p>
+</section>
+<section class="g" data-t="applepay" data-ios="26" data-lang="ru" hidden>
+<p class="kicker">Инструкция · <span class="ios">iOS 26 и раньше</span></p>
+<h1>Apple Pay → Trata</h1>
+<video controls playsinline preload="none" poster="applepay-26-ru.jpg" data-src="applepay-26-ru.mp4"></video>
+<article class="step">
+<div class="num">1</div><div class="body">
+<p class="label">Шаг 1 · Добавьте команду</p>
+<p>В Trata откройте «Меню» → «Автозапись», у Apple Pay нажмите «Подключить», затем «Добавить команду». В меню выберите «Команды». На экране импорта нажмите «Добавить».</p>
+<figure><img loading="lazy" src="ap26-ru-0.jpg" alt="Добавьте команду"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">2</div><div class="body">
+<p class="label">Шаг 2 · Откройте автоматизации</p>
+<p>В приложении «Команды» нажмите вкладку «Автоматизация» внизу экрана.</p>
+<figure><img loading="lazy" src="ap26-ru-1.jpg" alt="Откройте автоматизации"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">3</div><div class="body">
+<p class="label">Шаг 3 · Создайте автоматизацию</p>
+<p>Нажмите «Новая автоматизация». Если автоматизации уже есть, нажмите плюс справа вверху.</p>
+<figure><img loading="lazy" src="ap26-ru-2.jpg" alt="Создайте автоматизацию"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">4</div><div class="body">
+<p class="label">Шаг 4 · Найдите Wallet</p>
+<p>Прокрутите список и выберите Wallet. В других версиях iOS он может называться «Транзакция».</p>
+<figure><img loading="lazy" src="ap26-ru-3.jpg" alt="Найдите Wallet"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">5</div><div class="body">
+<p class="label">Шаг 5 · Выберите свою карту</p>
+<p>Отметьте карту, которой платите через Apple Pay. На картинке — пример: галочка пока стоит на «Запуск после подтверждения». На следующем шаге выберите «Немедленный запуск», иначе после каждой оплаты iOS будет ждать вашего нажатия.</p>
+<figure><img loading="lazy" src="ap26-ru-4.jpg" alt="Выберите свою карту"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">6</div><div class="body">
+<p class="label">Шаг 6 · Включите запуск сразу</p>
+<p>Выберите «Немедленный запуск» или «Запускать сразу», затем нажмите «Далее». Схема показывает выбранную карту и режим запуска.</p>
+<figure><img loading="lazy" src="ap26-ru-5.jpg" alt="Включите запуск сразу"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">7</div><div class="body">
+<p class="label">Шаг 7 · Выберите Apple Pay в Trata</p>
+<p>В списке сохранённых команд нажмите «Apple Pay в Trata». Сумма и продавец уже настроены. Если появится кнопка «Готово», нажмите её.</p>
+<figure><img loading="lazy" src="ap26-ru-6.jpg" alt="Выберите Apple Pay в Trata"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">8</div><div class="body">
+<p class="label">Шаг 8 · Оплатите и проверьте</p>
+<p>Оплатите покупку у терминала выбранной картой. Для нового продавца выберите категорию в системном окне «Команд». Выбор «Топливо» запомнит заправку: меньше 300 MDL — кафе, от 300 MDL — топливо (порог можно изменить в правиле продавца). Затем проверьте запись в Trata. На картинке пример записи. Если «Команды» спросят доступ к Trata, выберите «Разрешить» или «Разрешать всегда», но не «Разрешить один раз». Покупки онлайн не записываются.</p>
+<p>В первой покупке проверьте сумму, валюту, категорию и счёт. Если счёт не выбран, остатки счетов не меняются.</p>
+<figure><img loading="lazy" src="ap26-ru-7.jpg" alt="Оплатите и проверьте"></figure>
+</div>
+</article>
+<h2 class="trouble">Не получается?</h2><ul class="tips"><li>Нажмите «Проверить»: «Команды» запустят команду. Если спросят доступ к Trata, выберите «Разрешить» или «Разрешать всегда», но не «Разрешить один раз». Работает ли автоматизация Wallet, покажет первая оплата на кассе.</li></ul>
+<p class="links"><a href="../help.html#autorecord">Другие вопросы — на странице помощи</a> · <a href="mailto:tratasupport@gmail.com">Написать в поддержку</a></p>
+<p class="other">Другая версия iOS: <span class="switch"></span></p>
+</section>
+<section class="g" data-t="bank" data-ios="27" data-lang="ru" hidden>
+<p class="kicker">Инструкция · <span class="ios">iOS 27</span></p>
+<h1>Уведомления банка</h1>
+<p class="lead">Покупку картой — в магазине, в интернете, по подписке — Trata запишет по уведомлению или SMS банка. О зачислениях, возвратах, переводах и снятии наличных спросит.</p>
+<video controls playsinline preload="none" poster="bank-27-ru.jpg" data-src="bank-27-ru.mp4"></video>
+<article class="step">
+<div class="num">1</div><div class="body"><p>Нажмите «Добавить команду» → «Команды» → «Добавить».</p></div>
+</article>
+<article class="step">
+<div class="num">2</div><div class="body"><p>Откроется команда «Банк в Trata». Внизу нажмите «Поиск», затем «Автоматизация» → «Уведомление».</p></div>
+</article>
+<article class="step">
+<div class="num">3</div><div class="body"><p>Нажмите «Приложение» и выберите приложение вашего банка. Банк присылает SMS — выберите «Сообщения». Несколько — через «+».</p></div>
+</article>
+<article class="step">
+<div class="num">4</div><div class="body"><p>Нажмите «Назад», затем ▶ на команде «Банк в Trata» один раз и выберите «Разрешить». Готово — дождитесь уведомления банка и проверьте запись в Trata.</p></div>
+</article>
+<article class="step">
+<div class="num">5</div><div class="body"><p>В настройках счёта карты впишите последние 4 цифры карты — её покупки будут записываться на этот счёт.</p></div>
+</article>
+<h2 class="trouble">Не получается?</h2><ul class="tips"><li>Откройте команду «Банк в Trata» (нажмите и удерживайте → «Изменить»): в блоке «Уведомление» должно быть выбрано приложение банка или «Сообщения».</li><li>Уведомления банка должны приходить на этот iPhone: проверьте в настройках iPhone → «Уведомления» → приложение банка.</li><li>Вставьте уведомление в «Проверить текст». Если Trata его не понимает, напишите в поддержку — добавим формат вашего банка.</li></ul>
+<p class="links"><a href="../help.html#autorecord">Другие вопросы — на странице помощи</a> · <a href="mailto:tratasupport@gmail.com">Написать в поддержку</a></p>
+<p class="other">Другая версия iOS: <span class="switch"></span></p>
+</section>
+<section class="g" data-t="setup" data-ios="27" data-lang="en" hidden>
+<p class="kicker">Guide · <span class="ios">iOS 27</span></p>
+<h1>Set up automatic logging</h1>
+<video controls playsinline preload="none" poster="setup-27-en.jpg" data-src="setup-27-en.mp4"></video>
+<article class="step">
+<div class="num">1</div><div class="body">
+<p class="label">Step 1 · Shortcut</p>
+<h2>Add the Trata shortcut</h2>
+<p>One shortcut for everything: Apple Pay payments and your bank’s notifications.</p>
+<p>Inside: Apple Pay payments and bank notifications → Trata</p>
+<figure><img loading="lazy" src="s27-en-command-1.jpg" alt="Tap Add Shortcut — the shortcut appears in Shortcuts"><figcaption>Tap Add Shortcut — the shortcut appears in Shortcuts</figcaption></figure>
+<figure><img loading="lazy" src="s27-en-command-2.jpg" alt="Done: “Purchases in Trata” is in the list. Go back to Trata"><figcaption>Done: “Purchases in Trata” is in the list. Go back to Trata</figcaption></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">2</div><div class="body">
+<p class="label">Step 2 · In the shortcut</p>
+<h2>Set up the shortcut</h2>
+<p>All on one screen of the shortcut:</p>
+<ol><li>In the notification block, tap App and choose your bank.</li><li>Tap + and choose Wallet — it’s at the bottom of the list.</li><li>On both blocks, tap ⌄ and turn on Automation.</li></ol>
+<figure><img loading="lazy" src="s27-en-incommand-1.jpg" alt="See “Describe a change”? Tap Editor at the top right first. Then, in the notification block, tap App and choose your bank"><figcaption>See “Describe a change”? Tap Editor at the top right first. Then, in the notification block, tap App and choose your bank</figcaption></figure>
+<figure><img loading="lazy" src="s27-en-incommand-2.jpg" alt="Tap + and choose Wallet — it’s at the bottom of the list"><figcaption>Tap + and choose Wallet — it’s at the bottom of the list</figcaption></figure>
+<figure><img loading="lazy" src="s27-en-incommand-3.jpg" alt="Tap ⌄ on the first block and turn on Automation"><figcaption>Tap ⌄ on the first block and turn on Automation</figcaption></figure>
+<figure><img loading="lazy" src="s27-en-incommand-4.jpg" alt="Same for the second block — both Automation switches are on"><figcaption>Same for the second block — both Automation switches are on</figcaption></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">3</div><div class="body">
+<p class="label">Step 3 · Check</p>
+<p>Tap Check: Shortcuts runs the shortcut. If it asks for access to Trata, choose Allow. Your first payment at a shop will show whether Automation is on.</p>
+<p>Pay by card or Apple Pay — the purchase will show up here.</p>
+</div>
+</article>
+<h2 class="trouble">Not working?</h2><ul class="tips"><li>Your bank doesn’t send notifications? Choose just Wallet. It sends text messages? Add Messages too.</li><li>Shortcuts opened the Gallery without the Add window? Tap “No”.</li><li>Shortcut didn’t open? Go back to step 1</li><li>Tap Run the check again, and if Shortcuts asks for access to Trata, allow it.</li></ul>
+<p class="links"><a href="../help.html#autorecord-en">More answers on the help page</a> · <a href="mailto:tratasupport@gmail.com">Contact support</a></p>
+<p class="other">Another iOS version: <span class="switch"></span></p>
+</section>
+<section class="g" data-t="setup" data-ios="26" data-lang="en" hidden>
+<p class="kicker">Guide · <span class="ios">iOS 26 and earlier</span></p>
+<h1>Set up automatic logging</h1>
+<video controls playsinline preload="none" poster="setup-26-en.jpg" data-src="setup-26-en.mp4"></video>
+<article class="step">
+<div class="num">1</div><div class="body">
+<p class="label">Step 1 · Shortcut</p>
+<h2>Add the Trata shortcut</h2>
+<p>One shortcut for Apple Pay payments. You can add your bank’s SMS later.</p>
+<ol><li>Tap “Add shortcut” and choose Shortcuts in the menu.</li><li>In Shortcuts, tap “Add Shortcut.”</li><li>Come back to Trata — next is the Wallet automation.</li></ol>
+<figure><img loading="lazy" src="s26-en-command-1.jpg" alt="In the Share sheet, choose Shortcuts"><figcaption>In the Share sheet, choose Shortcuts</figcaption></figure>
+<figure><img loading="lazy" src="s26-en-command-2.jpg" alt="Tap “Add Shortcut”"><figcaption>Tap “Add Shortcut”</figcaption></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">2</div><div class="body">
+<p class="label">Step 2 · Wallet</p>
+<h2>Create a Wallet automation</h2>
+<p>Before iOS 27, an automation can’t come with the shortcut, so you create it yourself — once.</p>
+<ol><li>Open Shortcuts and tap Automation at the bottom. If a shortcut opens instead, tap ‹ at the top left first.</li><li>Tap New Automation — or + at the top right if you already have automations.</li><li>Scroll down the list and choose Wallet.</li><li>Tick the cards you pay with and choose Run Immediately.</li><li>Tap Next and choose “Purchases in Trata” under My Shortcuts.</li></ol>
+<figure><img loading="lazy" src="s26-en-wallet-1.jpg" alt="At the bottom: Automation → New Automation"><figcaption>At the bottom: Automation → New Automation</figcaption></figure>
+<figure><img loading="lazy" src="s26-en-wallet-2.jpg" alt="Scroll down and choose Wallet"><figcaption>Scroll down and choose Wallet</figcaption></figure>
+<figure><img loading="lazy" src="s26-en-wallet-3.jpg" alt="Tick your cards, choose Run Immediately → Next, then choose “Purchases in Trata”"><figcaption>Tick your cards, choose Run Immediately → Next, then choose “Purchases in Trata”</figcaption></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">3</div><div class="body">
+<p class="label">Step 3 · Check</p>
+<p>Tap Check: Shortcuts runs the shortcut. If it asks for access to Trata, choose Allow or Always Allow, not Allow Once. Your first payment at a shop will show whether the Wallet automation works.</p>
+<p>Pay by card or Apple Pay — the purchase will show up here.</p>
+</div>
+</article>
+<h2 class="trouble">Not working?</h2><ul class="tips"><li>Without Run Immediately, your iPhone will wait for your tap after every payment.</li><li>No window with the “Add Shortcut” button? Tap “No”.</li><li>Tap Run the check again, and if Shortcuts asks for access to Trata, allow it.</li></ul>
+<p class="links"><a href="../help.html#autorecord-en">More answers on the help page</a> · <a href="mailto:tratasupport@gmail.com">Contact support</a></p>
+<p class="other">Another iOS version: <span class="switch"></span></p>
+</section>
+<section class="g" data-t="applepay" data-ios="27" data-lang="en" hidden>
+<p class="kicker">Guide · <span class="ios">iOS 27</span></p>
+<h1>Apple Pay → Trata</h1>
+<video controls playsinline preload="none" poster="applepay-27-en.jpg" data-src="applepay-27-en.mp4"></video>
+<article class="step">
+<div class="num">1</div><div class="body">
+<p class="label">Step 1 · Add the shortcut</p>
+<p>In Trata, open Menu → Automatic logging, tap Connect under Apple Pay, then Add shortcut. Choose Shortcuts in the menu, then tap Add Shortcut. The Apple Pay in Trata shortcut opens on its own.</p>
+<figure><img loading="lazy" src="ap27-en-1.jpg" alt="Add the shortcut"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">2</div><div class="body">
+<p class="label">Step 2 · Open Automation</p>
+<p>At the bottom of the shortcut, tap Search and choose Automation. If the shortcut opened in Describe a change, tap Edit at the top right first.</p>
+<figure><img loading="lazy" src="ap27-en-2.jpg" alt="Open Automation"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">3</div><div class="body">
+<p class="label">Step 3 · Choose Wallet</p>
+<p>Scroll to Apps and tap Wallet. A “When … is tapped” block appears in the shortcut.</p>
+<figure><img loading="lazy" src="ap27-en-3.jpg" alt="Choose Wallet"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">4</div><div class="body">
+<p class="label">Step 4 · Automation is on</p>
+<p>Tap the arrow in the Wallet block: the Automation switch is already on. Any card works. To log just one card, tap Any Card and choose it.</p>
+<p>Set up automatic logging before iOS 27? It moved over on its own — don&#x27;t add a second Wallet block.</p>
+<figure><img loading="lazy" src="ap27-en-4.jpg" alt="Automation is on"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">5</div><div class="body">
+<p class="label">Step 5 · Last step: run it once</p>
+<p>Tap Back, then ▶ on the “Apple Pay in Trata” shortcut and choose Allow. There’s no purchase, so Trata logs nothing. Without this, the first payment on a locked phone won’t be logged.</p>
+<figure><img loading="lazy" src="ap27-en-5.jpg" alt="Last step: run it once"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">6</div><div class="body">
+<p class="label">Step 6 · Pay and check</p>
+<p>Tap Back: Library → Automation shows 1. Pay with your card at a terminal and the purchase appears in Trata. For a new merchant, choose a category in the Shortcuts window.</p>
+<figure><img loading="lazy" src="ap27-en-6.jpg" alt="Pay and check"></figure>
+</div>
+</article>
+<h2 class="trouble">Not working?</h2><ul class="tips"><li>Tap Check: Shortcuts runs the shortcut. If it asks for access to Trata, choose Allow. Your first payment at a shop will show whether Automation is on.</li></ul>
+<p class="links"><a href="../help.html#autorecord-en">More answers on the help page</a> · <a href="mailto:tratasupport@gmail.com">Contact support</a></p>
+<p class="other">Another iOS version: <span class="switch"></span></p>
+</section>
+<section class="g" data-t="applepay" data-ios="26" data-lang="en" hidden>
+<p class="kicker">Guide · <span class="ios">iOS 26 and earlier</span></p>
+<h1>Apple Pay → Trata</h1>
+<video controls playsinline preload="none" poster="applepay-26-en.jpg" data-src="applepay-26-en.mp4"></video>
+<article class="step">
+<div class="num">1</div><div class="body">
+<p class="label">Step 1 · Add the shortcut</p>
+<p>In Trata, open Menu → Automatic logging, tap Connect under Apple Pay, then “Add shortcut.” In the menu, choose Shortcuts. On the import screen, tap “Add Shortcut.”</p>
+<figure><img loading="lazy" src="ap26-en-0.jpg" alt="Add the shortcut"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">2</div><div class="body">
+<p class="label">Step 2 · Open automations</p>
+<p>In the Shortcuts app, tap the Automation tab at the bottom of the screen.</p>
+<figure><img loading="lazy" src="ap26-en-1.jpg" alt="Open automations"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">3</div><div class="body">
+<p class="label">Step 3 · Create an automation</p>
+<p>Tap “New Automation.” If you already have automations, tap the plus in the top-right corner.</p>
+<figure><img loading="lazy" src="ap26-en-2.jpg" alt="Create an automation"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">4</div><div class="body">
+<p class="label">Step 4 · Find Wallet</p>
+<p>Scroll the list and choose Wallet. On other iOS versions it may be called “Transaction.”</p>
+<figure><img loading="lazy" src="ap26-en-3.jpg" alt="Find Wallet"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">5</div><div class="body">
+<p class="label">Step 5 · Choose your card</p>
+<p>Select the card you pay with using Apple Pay. The picture is an example: the checkmark is still on “Run After Confirmation.” On the next step, choose “Run Immediately,” or iOS will wait for your tap after every payment.</p>
+<figure><img loading="lazy" src="ap26-en-4.jpg" alt="Choose your card"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">6</div><div class="body">
+<p class="label">Step 6 · Turn on Run Immediately</p>
+<p>Choose “Run Immediately,” then tap “Next.” The picture shows the selected card and run mode.</p>
+<figure><img loading="lazy" src="ap26-en-5.jpg" alt="Turn on Run Immediately"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">7</div><div class="body">
+<p class="label">Step 7 · Choose Apple Pay in Trata</p>
+<p>In the list of saved shortcuts, tap “Apple Pay in Trata.” The amount and merchant are already set up. If a “Done” button appears, tap it.</p>
+<figure><img loading="lazy" src="ap26-en-6.jpg" alt="Choose Apple Pay in Trata"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">8</div><div class="body">
+<p class="label">Step 8 · Pay and check</p>
+<p>Pay at a terminal with the selected card. For a new merchant, choose a category in the Shortcuts pop-up. If you choose “Fuel,” Trata remembers the gas station: purchases under 300 MDL go to Cafés, 300 MDL and over go to Fuel (you can change this in the merchant rule). Then check the entry in Trata. The picture shows a sample entry. If Shortcuts asks for access to Trata, choose Allow or Always Allow, not Allow Once. Online purchases aren’t logged.</p>
+<p>Check the amount, currency, category and account on your first purchase. If no account is selected, account balances stay unchanged.</p>
+<figure><img loading="lazy" src="ap26-en-7.jpg" alt="Pay and check"></figure>
+</div>
+</article>
+<h2 class="trouble">Not working?</h2><ul class="tips"><li>Tap Check: Shortcuts runs the shortcut. If it asks for access to Trata, choose Allow or Always Allow, not Allow Once. Your first payment at a shop will show whether the Wallet automation works.</li></ul>
+<p class="links"><a href="../help.html#autorecord-en">More answers on the help page</a> · <a href="mailto:tratasupport@gmail.com">Contact support</a></p>
+<p class="other">Another iOS version: <span class="switch"></span></p>
+</section>
+<section class="g" data-t="bank" data-ios="27" data-lang="en" hidden>
+<p class="kicker">Guide · <span class="ios">iOS 27</span></p>
+<h1>Bank notifications</h1>
+<p class="lead">Card purchases — in stores, online, subscriptions — are logged from your bank’s notification or SMS. For incoming money, refunds, transfers and cash withdrawals, Trata asks first.</p>
+<video controls playsinline preload="none" poster="bank-27-en.jpg" data-src="bank-27-en.mp4"></video>
+<article class="step">
+<div class="num">1</div><div class="body"><p>Tap “Add shortcut” → Shortcuts → “Add Shortcut”.</p></div>
+</article>
+<article class="step">
+<div class="num">2</div><div class="body"><p>The Bank in Trata shortcut opens. Tap Search at the bottom, then Automation → Notification.</p></div>
+</article>
+<article class="step">
+<div class="num">3</div><div class="body"><p>Tap App and choose your bank’s app. If your bank sends SMS, choose Messages. Add more with +.</p></div>
+</article>
+<article class="step">
+<div class="num">4</div><div class="body"><p>Tap Back, then tap ▶ on the “Bank in Trata” shortcut once and choose Allow. Done — wait for a notification from your bank and check Trata.</p></div>
+</article>
+<article class="step">
+<div class="num">5</div><div class="body"><p>In the card’s account settings, enter the card’s last 4 digits — its purchases will be recorded to that account.</p></div>
+</article>
+<h2 class="trouble">Not working?</h2><ul class="tips"><li>Open the Bank in Trata shortcut (touch and hold → Edit). The Notification block must have your bank’s app or Messages selected.</li><li>Your bank’s notifications must arrive on this iPhone: check iPhone Settings → Notifications → your bank’s app.</li><li>Paste the notification into Check a message. If Trata doesn’t understand it, write to support and we’ll add your bank’s format.</li></ul>
+<p class="links"><a href="../help.html#autorecord-en">More answers on the help page</a> · <a href="mailto:tratasupport@gmail.com">Contact support</a></p>
+<p class="other">Another iOS version: <span class="switch"></span></p>
+</section>
+<section class="g" data-t="setup" data-ios="27" data-lang="ro" hidden>
+<p class="kicker">Ghid · <span class="ios">iOS 27</span></p>
+<h1>Configurează înregistrarea automată</h1>
+<video controls playsinline preload="none" poster="setup-27-ro.jpg" data-src="setup-27-ro.mp4"></video>
+<article class="step">
+<div class="num">1</div><div class="body">
+<p class="label">Pasul 1 · Scurtătură</p>
+<h2>Adaugă scurtătura Trata</h2>
+<p>O singură scurtătură pentru tot: plățile Apple Pay și notificările băncii tale.</p>
+<p>Înăuntru: plățile Apple Pay și notificările băncii → Trata</p>
+<figure><img loading="lazy" src="s27-ro-command-1.jpg" alt="Atinge „Adăugați scurtătura” — scurtătura apare în Scurtături"><figcaption>Atinge „Adăugați scurtătura” — scurtătura apare în Scurtături</figcaption></figure>
+<figure><img loading="lazy" src="s27-ro-command-2.jpg" alt="Gata: „Cumpărături în Trata” e în listă. Întoarce-te în Trata"><figcaption>Gata: „Cumpărături în Trata” e în listă. Întoarce-te în Trata</figcaption></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">2</div><div class="body">
+<p class="label">Pasul 2 · În scurtătură</p>
+<h2>Configurează scurtătura</h2>
+<p>Totul pe un singur ecran al scurtăturii:</p>
+<ol><li>În blocul de notificare atinge „Aplicație” și alege banca ta.</li><li>Atinge + și alege „Portofel”.</li><li>La ambele blocuri atinge ⌄ și pornește „Automatizare”.</li></ol>
+<figure><img loading="lazy" src="s27-ro-incommand-1.jpg" alt="În blocul de notificare atinge „Aplicație” și alege banca ta"><figcaption>În blocul de notificare atinge „Aplicație” și alege banca ta</figcaption></figure>
+<figure><img loading="lazy" src="s27-ro-incommand-2.jpg" alt="Atinge + și alege „Portofel”"><figcaption>Atinge + și alege „Portofel”</figcaption></figure>
+<figure><img loading="lazy" src="s27-ro-incommand-3.jpg" alt="Atinge ⌄ la primul bloc și pornește „Automatizare”"><figcaption>Atinge ⌄ la primul bloc și pornește „Automatizare”</figcaption></figure>
+<figure><img loading="lazy" src="s27-ro-incommand-4.jpg" alt="La fel la al doilea bloc — ambele comutatoare „Automatizare” sunt pornite"><figcaption>La fel la al doilea bloc — ambele comutatoare „Automatizare” sunt pornite</figcaption></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">3</div><div class="body">
+<p class="label">Pasul 3 · Verificare</p>
+<p>Atinge „Verifică”: Scurtături rulează scurtătura. Dacă cere acces la Trata, alege „Permiteți”. Prima plată la casă va arăta dacă „Automatizare” e pornită.</p>
+<p>Plătește cu cardul sau cu Apple Pay — cumpărătura va apărea aici.</p>
+</div>
+</article>
+<h2 class="trouble">Nu merge?</h2><ul class="tips"><li>Banca nu trimite notificări? Alege doar „Portofel”. Trimite SMS? Adaugă și „Mesaje”.</li><li>S-a deschis Galeria fără fereastra „Adaugă”? Atinge „Nu”.</li><li>Scurtătura nu s-a deschis? Întoarce-te la pasul 1</li><li>Atinge Repetă verificarea și, dacă Scurtături cere acces la Trata, permite-l.</li></ul>
+<p class="links"><a href="../help.html#autorecord-ro">Alte răspunsuri — pe pagina de ajutor</a> · <a href="mailto:tratasupport@gmail.com">Scrie-ne</a></p>
+<p class="other">Altă versiune iOS: <span class="switch"></span></p>
+</section>
+<section class="g" data-t="setup" data-ios="26" data-lang="ro" hidden>
+<p class="kicker">Ghid · <span class="ios">iOS 26 și mai vechi</span></p>
+<h1>Configurează înregistrarea automată</h1>
+<video controls playsinline preload="none" poster="setup-26-ro.jpg" data-src="setup-26-ro.mp4"></video>
+<article class="step">
+<div class="num">1</div><div class="body">
+<p class="label">Pasul 1 · Scurtătură</p>
+<h2>Adaugă scurtătura Trata</h2>
+<p>O singură scurtătură pentru plățile Apple Pay. SMS-urile băncii le poți adăuga mai târziu.</p>
+<ol><li>Atinge „Adaugă scurtătura” și alege Scurtături din meniu.</li><li>În Scurtături, atinge „Adăugați scurtătura”.</li><li>Revino în Trata — urmează automatizarea Portofel.</li></ol>
+<figure><img loading="lazy" src="s26-ro-command-1.jpg" alt="În fereastra de partajare alege Scurtături"><figcaption>În fereastra de partajare alege Scurtături</figcaption></figure>
+<figure><img loading="lazy" src="s26-ro-command-2.jpg" alt="Atinge „Adăugați scurtătura”"><figcaption>Atinge „Adăugați scurtătura”</figcaption></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">2</div><div class="body">
+<p class="label">Pasul 2 · Portofel</p>
+<h2>Creează o automatizare Portofel</h2>
+<p>Înainte de iOS 27, automatizarea nu vine odată cu scurtătura — o creezi tu, o singură dată.</p>
+<ol><li>Deschide Scurtături și atinge „Automatizare” jos. Dacă s-a deschis o scurtătură, atinge întâi ‹ sus în stânga.</li><li>Atinge „Automatizare nouă” — sau + sus în dreapta, dacă ai deja automatizări.</li><li>Derulează lista în jos și alege „Portofel”.</li><li>Bifează cardurile cu care plătești și alege „Executare imediată”.</li><li>Atinge „Înainte” și alege „Cumpărături în Trata” la Scurtăturile mele.</li></ol>
+<figure><img loading="lazy" src="s26-ro-wallet-1.jpg" alt="Jos: „Automatizare” → „Automatizare nouă”"><figcaption>Jos: „Automatizare” → „Automatizare nouă”</figcaption></figure>
+<figure><img loading="lazy" src="s26-ro-wallet-2.jpg" alt="Derulează în jos și alege „Portofel”"><figcaption>Derulează în jos și alege „Portofel”</figcaption></figure>
+<figure><img loading="lazy" src="s26-ro-wallet-3.jpg" alt="Bifează cardurile tale, alege „Executare imediată” → „Înainte”, apoi „Cumpărături în Trata”"><figcaption>Bifează cardurile tale, alege „Executare imediată” → „Înainte”, apoi „Cumpărături în Trata”</figcaption></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">3</div><div class="body">
+<p class="label">Pasul 3 · Verificare</p>
+<p>Atinge „Verifică”: Scurtături rulează scurtătura. Dacă cere acces la Trata, alege „Permiteți” sau „Permiteți întotdeauna”, nu „Permiteți o dată”. Prima plată la casă va arăta dacă automatizarea Portofel funcționează.</p>
+<p>Plătește cu cardul sau cu Apple Pay — cumpărătura va apărea aici.</p>
+</div>
+</article>
+<h2 class="trouble">Nu merge?</h2><ul class="tips"><li>Fără „Executare imediată”, iPhone-ul va aștepta confirmarea ta după fiecare plată.</li><li>N-a apărut fereastra cu butonul „Adăugați scurtătura”? Atinge „Nu”.</li><li>Atinge Repetă verificarea și, dacă Scurtături cere acces la Trata, permite-l.</li></ul>
+<p class="links"><a href="../help.html#autorecord-ro">Alte răspunsuri — pe pagina de ajutor</a> · <a href="mailto:tratasupport@gmail.com">Scrie-ne</a></p>
+<p class="other">Altă versiune iOS: <span class="switch"></span></p>
+</section>
+<section class="g" data-t="applepay" data-ios="27" data-lang="ro" hidden>
+<p class="kicker">Ghid · <span class="ios">iOS 27</span></p>
+<h1>Apple Pay → Trata</h1>
+<video controls playsinline preload="none" poster="applepay-27-ro.jpg" data-src="applepay-27-ro.mp4"></video>
+<article class="step">
+<div class="num">1</div><div class="body">
+<p class="label">Pasul 1 · Adaugă scurtătura</p>
+<p>În Trata deschide Meniu → Înregistrare automată, atinge Conectează la Apple Pay, apoi Adaugă scurtătura. În meniu alege Scurtături, apoi Adăugați scurtătura. Scurtătura Apple Pay în Trata se deschide singură.</p>
+<figure><img loading="lazy" src="ap27-ro-1.jpg" alt="Adaugă scurtătura"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">2</div><div class="body">
+<p class="label">Pasul 2 · Deschide Automatizare</p>
+<p>Jos în scurtătură atinge Căutare și alege Automatizare. Dacă scurtătura nu s-a deschis în editor, atinge întâi Editați, sus în dreapta.</p>
+<figure><img loading="lazy" src="ap27-ro-2.jpg" alt="Deschide Automatizare"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">3</div><div class="body">
+<p class="label">Pasul 3 · Alege Portofel</p>
+<p>Derulează până la Aplicații și atinge Portofel. În scurtătură apare blocul „Când este apropiat… card”.</p>
+<figure><img loading="lazy" src="ap27-ro-3.jpg" alt="Alege Portofel"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">4</div><div class="body">
+<p class="label">Pasul 4 · Automatizarea e pornită</p>
+<p>Atinge săgeata din blocul Portofel: comutatorul Automatizare e deja pornit. Funcționează orice card. Ca să înregistrezi doar unul, atinge Orice card și alege-l.</p>
+<p>Ai configurat înregistrarea automată înainte de iOS 27? S-a mutat singură — nu adăuga încă un bloc Portofel.</p>
+<figure><img loading="lazy" src="ap27-ro-4.jpg" alt="Automatizarea e pornită"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">5</div><div class="body">
+<p class="label">Pasul 5 · Ultimul pas: rulează-o o dată</p>
+<p>Atinge Înapoi, apoi ▶ pe scurtătura „Apple Pay în Trata” și alege „Permiteți”. Nu e nicio cumpărătură, așa că Trata nu înregistrează nimic. Fără asta, prima plată cu telefonul blocat nu se va înregistra.</p>
+<figure><img loading="lazy" src="ap27-ro-5.jpg" alt="Ultimul pas: rulează-o o dată"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">6</div><div class="body">
+<p class="label">Pasul 6 · Plătește și verifică</p>
+<p>Atinge Înapoi: în Bibliotecă → Automatizare apare 1. Plătește cu cardul la terminal și cumpărătura apare în Trata. Pentru un comerciant nou, alege categoria în fereastra Scurtături.</p>
+<figure><img loading="lazy" src="ap27-ro-6.jpg" alt="Plătește și verifică"></figure>
+</div>
+</article>
+<h2 class="trouble">Nu merge?</h2><ul class="tips"><li>Atinge „Verifică”: Scurtături rulează scurtătura. Dacă cere acces la Trata, alege „Permiteți”. Prima plată la casă va arăta dacă „Automatizare” e pornită.</li></ul>
+<p class="links"><a href="../help.html#autorecord-ro">Alte răspunsuri — pe pagina de ajutor</a> · <a href="mailto:tratasupport@gmail.com">Scrie-ne</a></p>
+<p class="other">Altă versiune iOS: <span class="switch"></span></p>
+</section>
+<section class="g" data-t="applepay" data-ios="26" data-lang="ro" hidden>
+<p class="kicker">Ghid · <span class="ios">iOS 26 și mai vechi</span></p>
+<h1>Apple Pay → Trata</h1>
+<video controls playsinline preload="none" poster="applepay-26-ro.jpg" data-src="applepay-26-ro.mp4"></video>
+<article class="step">
+<div class="num">1</div><div class="body">
+<p class="label">Pasul 1 · Adaugă scurtătura</p>
+<p>În Trata, deschide Meniu → Înregistrare automată, atinge „Conectează” la Apple Pay, apoi „Adaugă scurtătura”. În meniu, alege Scurtături. Pe ecranul de import, atinge „Adăugați scurtătura”.</p>
+<figure><img loading="lazy" src="ap26-ro-0.jpg" alt="Adaugă scurtătura"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">2</div><div class="body">
+<p class="label">Pasul 2 · Deschide automatizările</p>
+<p>În aplicația Scurtături, atinge fila „Automatizare” din partea de jos a ecranului.</p>
+<figure><img loading="lazy" src="ap26-ro-1.jpg" alt="Deschide automatizările"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">3</div><div class="body">
+<p class="label">Pasul 3 · Creează o automatizare</p>
+<p>Atinge „Automatizare nouă”. Dacă ai deja automatizări, atinge plusul din dreapta sus.</p>
+<figure><img loading="lazy" src="ap26-ro-2.jpg" alt="Creează o automatizare"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">4</div><div class="body">
+<p class="label">Pasul 4 · Găsește Portofel</p>
+<p>Derulează lista și alege Portofel (Wallet). În alte versiuni de iOS se poate numi „Tranzacție”.</p>
+<figure><img loading="lazy" src="ap26-ro-3.jpg" alt="Găsește Portofel"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">5</div><div class="body">
+<p class="label">Pasul 5 · Alege cardul tău</p>
+<p>Bifează cardul cu care plătești prin Apple Pay. Imaginea e un exemplu: bifa e încă la „Executare după confirmare”. La pasul următor alege „Executare imediată”, altfel după fiecare plată iOS va aștepta să atingi ecranul.</p>
+<figure><img loading="lazy" src="ap26-ro-4.jpg" alt="Alege cardul tău"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">6</div><div class="body">
+<p class="label">Pasul 6 · Activează executarea imediată</p>
+<p>Alege „Executare imediată”, apoi atinge „Înainte”. Imaginea arată cardul ales și modul de executare.</p>
+<figure><img loading="lazy" src="ap26-ro-5.jpg" alt="Activează executarea imediată"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">7</div><div class="body">
+<p class="label">Pasul 7 · Alege Apple Pay în Trata</p>
+<p>În lista de scurtături salvate, atinge „Apple Pay în Trata”. Suma și comerciantul sunt deja configurate. Dacă apare butonul „OK”, atinge-l.</p>
+<figure><img loading="lazy" src="ap26-ro-6.jpg" alt="Alege Apple Pay în Trata"></figure>
+</div>
+</article>
+<article class="step">
+<div class="num">8</div><div class="body">
+<p class="label">Pasul 8 · Plătește și verifică</p>
+<p>Plătește la terminal cu cardul ales. Pentru un comerciant nou, alege categoria în fereastra Scurtături. Dacă alegi „Combustibil”, benzinăria va fi reținută: sub 300 MDL — cafenele, de la 300 MDL — combustibil (pragul se poate schimba în regula comerciantului). Apoi verifică înregistrarea în Trata. Imaginea arată un exemplu de înregistrare. Dacă Scurtături cere acces la Trata, alege „Permiteți” sau „Permiteți întotdeauna”, nu „Permiteți o dată”. Cumpărăturile online nu se înregistrează.</p>
+<p>La prima cumpărătură, verifică suma, moneda, categoria și contul. Dacă nu ai ales un cont, soldurile conturilor rămân neschimbate.</p>
+<figure><img loading="lazy" src="ap26-ro-7.jpg" alt="Plătește și verifică"></figure>
+</div>
+</article>
+<h2 class="trouble">Nu merge?</h2><ul class="tips"><li>Atinge „Verifică”: Scurtături rulează scurtătura. Dacă cere acces la Trata, alege „Permiteți” sau „Permiteți întotdeauna”, nu „Permiteți o dată”. Prima plată la casă va arăta dacă automatizarea Portofel funcționează.</li></ul>
+<p class="links"><a href="../help.html#autorecord-ro">Alte răspunsuri — pe pagina de ajutor</a> · <a href="mailto:tratasupport@gmail.com">Scrie-ne</a></p>
+<p class="other">Altă versiune iOS: <span class="switch"></span></p>
+</section>
+<section class="g" data-t="bank" data-ios="27" data-lang="ro" hidden>
+<p class="kicker">Ghid · <span class="ios">iOS 27</span></p>
+<h1>Notificările băncii</h1>
+<p class="lead">Cumpărăturile cu cardul — în magazin, online, abonamente — se înregistrează din notificarea sau SMS-ul băncii. Despre încasări, rambursări, transferuri și retrageri de numerar Trata te întreabă mai întâi.</p>
+<video controls playsinline preload="none" poster="bank-27-ro.jpg" data-src="bank-27-ro.mp4"></video>
+<article class="step">
+<div class="num">1</div><div class="body"><p>Atinge „Adaugă scurtătura” → Scurtături → „Adăugați scurtătura”.</p></div>
+</article>
+<article class="step">
+<div class="num">2</div><div class="body"><p>Se deschide scurtătura Banca în Trata. Jos atinge Căutare, apoi Automatizare → Notificare.</p></div>
+</article>
+<article class="step">
+<div class="num">3</div><div class="body"><p>Atinge Aplicație și alege aplicația băncii tale. Dacă banca trimite SMS-uri, alege Mesaje. Mai multe — cu +.</p></div>
+</article>
+<article class="step">
+<div class="num">4</div><div class="body"><p>Atinge Înapoi, apoi atinge o dată ▶ pe scurtătura „Banca în Trata” și alege „Permiteți”. Gata — așteaptă o notificare de la bancă și verifică Trata.</p></div>
+</article>
+<article class="step">
+<div class="num">5</div><div class="body"><p>În setările contului cardului, introdu ultimele 4 cifre ale cardului — cumpărăturile cu acest card se vor înregistra în acel cont.</p></div>
+</article>
+<h2 class="trouble">Nu merge?</h2><ul class="tips"><li>Deschide scurtătura Banca în Trata (ține apăsat → Editați). În blocul Notificare trebuie să fie aleasă aplicația băncii sau Mesaje.</li><li>Notificările băncii trebuie să ajungă pe acest iPhone: verifică în Configurări iPhone → Notificări → aplicația băncii.</li><li>Lipește notificarea în Verifică un mesaj. Dacă Trata nu o înțelege, scrie-ne la suport și vom adăuga formatul băncii tale.</li></ul>
+<p class="links"><a href="../help.html#autorecord-ro">Alte răspunsuri — pe pagina de ajutor</a> · <a href="mailto:tratasupport@gmail.com">Scrie-ne</a></p>
+<p class="other">Altă versiune iOS: <span class="switch"></span></p>
+</section>
+</main><script>
+(function(){
+  var q=new URLSearchParams(location.search);
+  var t=q.get('t')||'setup', lang=q.get('lang')||'ru', ios=parseInt(q.get('ios')||'27',10);
+  var all=[].slice.call(document.querySelectorAll('section.g'));
+  function pick(t,lang,ios){
+    var mine=all.filter(function(s){return s.dataset.t===t&&s.dataset.lang===lang});
+    if(!mine.length) mine=all.filter(function(s){return s.dataset.t===t&&s.dataset.lang==='ru'});
+    if(!mine.length) mine=all.filter(function(s){return s.dataset.t==='setup'&&s.dataset.lang==='ru'});
+    mine.sort(function(a,b){return +a.dataset.ios - +b.dataset.ios});
+    var lower=mine.filter(function(s){return +s.dataset.ios<=ios});
+    return lower.length?lower[lower.length-1]:mine[0];
+  }
+  var s=pick(t,lang,ios);
+  s.hidden=false; document.documentElement.lang=s.dataset.lang;
+  document.title=s.querySelector('h1').textContent+' · Trata';
+  var v=s.querySelector('video'); v.src=v.dataset.src; v.preload='metadata';
+  var others=all.filter(function(o){return o.dataset.t===s.dataset.t&&o.dataset.lang===s.dataset.lang&&o!==s});
+  var sw=s.querySelector('.switch');
+  if(!others.length){s.querySelector('.other').hidden=true}
+  others.forEach(function(o){var a=document.createElement('a');a.href='?t='+o.dataset.t+'&ios='+o.dataset.ios+'&lang='+o.dataset.lang;
+    a.textContent=o.querySelector('.ios').textContent;sw.appendChild(a)});
+})();
+</script></body></html>
